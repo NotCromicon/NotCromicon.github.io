@@ -1,0 +1,52 @@
+</<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Juego Preguntas</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/c2bc925f27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header id ="main-header">
+		<h1>BIENVENIDO A MI JUEGO</h1>
+		<p id="nombre"></p>
+		<div class="puntaje">
+			Puntaje : <div id="contador" class="cuenta"></div>
+			<b id="puntaje"></b>
+		</div>
+	</header>
+
+	<div class="pregunta1">
+		<h1><center> Que figura es esta? </center></h1>
+		<center><i class="fa-solid fa-square"></i></center>
+		<center><button onclick="aumentar()">Cuadrado</button>
+			<button onclick="disminuir()">Circulo</button>
+				<button onclick="disminuir()">Triangulo</button>
+					<button onclick="disminuir()">Rombicosidodecaedro</button>
+						</center>
+
+	<div class="pregunta2">
+		<h1><center> Que figura es esta? </center></h1>
+		<center><i class="fa-solid fa-caret-up"></i></i></center>
+		<center><button onclick="disminuir()">Cuadrado</button>
+			<button onclick="aumentar()">Triangulo</button>
+				<button onclick="disminuir()">Circulo</button>
+					<button onclick="disminuir()">Rombicosidodecaedro</button>
+						</center>
+
+	<div class="pregunta3">
+		<h1><center> Que figura es esta? </center></h1>
+		<center><i class="fa-solid fa-circle"></i></center>
+		<center><button onclick="disminuir()">Cuadrado</button>
+			<button onclick="disminuir()">Rombo</button>
+				<button onclick="disminuir()">Triangulo</button>
+					<button onclick="aumentar()">Circulo</button>
+						</center>
+
+	</div>
+<h2><script src = js/name.js></script></h2>	
+	<script src="js/contador.js"></script>
+</body>
+</html>
