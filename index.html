@@ -10,7 +10,13 @@
   <script src="https://kit.fontawesome.com/c2bc925f27.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+     <script>
+      let url = 'https://api.openweathermap.org/data/2.5/weather?lat=-41.8707&lon=-73.81622&appid=f9bc72ae77d2510c8ad4963b11c0a423';
+        fetch(url)
+            .then( response => response.json() )
+            .then( data => console.log(data) )
+            .catch( error => console.log(error) )
+          </script> 
 	<center><h1>Portafolio</h1></center>
 	<div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -21,7 +27,7 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       Buenas, mi nombre es Benjamin Sanchez, estudio programación en el liceo comercial el Pilar, tengo 18 años y les presentare mi portafolio personal el cual incluye 4 trabajos.
+       Buenas, mi nombre es Benjamin Sanchez, estudio programación en el liceo comercial el Pilar, tengo 18 años y les presentare mi portafolio personal el cual incluye 5 trabajos.
       </div>
     </div>
   </div>
@@ -36,13 +42,20 @@
    <center><a href="https://com491576187.wordpress.com/" class="btn btn-primary btn-lg">Wordpress</a>
 <a href="Trabajos/calculadoraphp/index.html" class="btn btn-success btn-lg">Calculadora</a>
 <a href="Trabajos/juegobenjamin/index.html" class="btn btn-warning btn-lg">Juego</a>
-<a href="Trabajos/formliceo/index.html" class="btn btn-info btn-lg">Form</a></center>
+<a href="Trabajos/formliceo/index.html" class="btn btn-info btn-lg">Form</a>
+<a href="Trabajos/pokemon/index.html" class="btn btn-primary btn-lg">Pokemon</a></center>
 </div>
 <br>
 <br>
-<center><a class="fa-brands fa-instagram" href="https://www.instagram.com/pure_con_merquen_2.0/"> Instagram</a></center>
 		<div class="bg"></div>
 		<div class="bg bg2"></div>
 		<div class="bg bg3"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><a class="fa-brands fa-instagram" href="https://www.instagram.com/pure_con_merquen_2.0/"> Instagram</a></center>
+    <script src = js/app.js></script>
 </body>
 </html>
